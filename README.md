@@ -1,46 +1,42 @@
-🌍 WanderLust-
-Wanderlust is a modern travel and stay platform that helps travelers discover and book unique stays around the world. Whether it’s a cozy cabin, a beachfront villa, or a city apartment, Wanderlust connects hosts and explorers for unforgettable experiences.
-<video controls src="wanderlust.mp4" title="Title"></video>
+🌍 WanderLust
 
-✨ Features
+WanderLust is a web application designed for travelers to explore, share, and review travel destinations.
+It allows users to browse beautiful places, view photos, and read experiences shared by other adventurers.
 
-Browse and explore listings of destinations
 
-Upload images and create travel listings
 
-Leave reviews and ratings
+## Getting Started
 
-Search destinations by name or location
+## **Clone the Repository:**
 
-User authentication (login/signup system)
+   ```bash
+ git clone https://github.com/keliya-shelly/WanderLust-.git
 
-🛠️ Technologies Used
-Frontend: HTML, CSS, JavaScript, Bootstrap
-Backend: Node.js, Express.js
-Database: MongoDB
-Templating: EJS
-Version Control: Git and GitHub
+   ```
 
-🚀 Installation (For local setup)
+## Features
 
-Clone the repository:
-git clone https://github.com/keliya-shelly/WanderLust-.git
+- **User Authentication:** Users can sign up, log in, and log out securely. Passwords are hashed for security.
+- **Google Login:** Users can sign up and log in using their gmail.
 
-Navigate to the project folder:
-cd WanderLust
+- **Search Listings:** Users can search for accommodations.
 
-Install dependencies:
-npm install
+- **View Listings:** Users can view detailed information about each accommodation, including photos, descriptions, amenities.
 
-Start the server:
-npm start
+- **Make Bookings:** Authenticated users can book accommodations for specific dates.
 
-Open your browser and go to:
-http://localhost:3000
+- **Manage Listings:** Hosts can create, edit, and delete their listings.
 
-🤝 Contributing
-Pull requests are welcome.
-For major changes, please open an issue first to discuss what you’d like to change.
+- **Responsive Design:** The application is designed to be responsive and work seamlessly across different devices.
 
-📄 License
-This project is open-source and available under the MIT License.
+## Technologies Used
+
+- **MongoDB:** NoSQL database for storing user data, listings.
+- **Express.js:** Web application framework for building the backend server.
+- **React.js:** JavaScript library for building the user interface.
+- **Node.js:** JavaScript runtime environment for executing server-side code.
+- **Tailwind CSS:** A utility-first CSS framework
+- **Shadcn:** UI library for styling based on Tailwind CSS
+- **JWT:** JSON Web Tokens for secure user authentication.
+- **Cloudinary:** Cloud-based image management for storing and serving images.
+- **Google Cloud:** For gmail based authentication
