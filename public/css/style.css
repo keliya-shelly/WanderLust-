@@ -1,0 +1,125 @@
+body {
+    font-family: "Plus Jakarta Sans";
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+.add-btn{
+    background-color: #be0e19 !important;
+    border: none !important;
+}
+
+/* edit page */
+.edit-btn{
+     background-color: #be0e19 !important;
+    border: none !important;
+
+}
+
+/* show page */
+
+.show-img{
+    height: 30vh;
+}
+
+.btns{
+    display: flex;
+
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass {
+    color: #be0e19;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #070000 !important ;
+}
+
+/* footer */
+
+.f-info-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.f-info-links a:hover{ 
+    text-decoration: underline;
+
+}
+.f-info-links ,
+ .f-info-socials,
+ .f-info-brand{
+    width:100%;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i{
+    font-size: 1.2rem;
+     margin:right 2rem;
+
+}
+
+.f-info{
+    text-align: center;
+    display: flex;
+    height: 6rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    background-color: rgb(207, 207, 207);
+}
+
+/* cards */
+.card{
+    border: none !important;
+    margin-bottom: 2rem; 
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text{
+    font-weight: 400 !important;
+    
+}
+
+.lisitng-link{
+    text-decoration: none;
+}
+
+/* card effect */
+ .card-img-overlay{
+    opacity: 0;
+ }
+
+ .card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+
+ }
+
+
+
