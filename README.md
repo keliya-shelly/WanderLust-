@@ -39,3 +39,7 @@ It allows users to browse beautiful places, view photos, and read experiences sh
 - **JWT:** JSON Web Tokens for secure user authentication.
 - **Cloudinary:** Cloud-based image management for storing and serving images.
 - **Google Cloud:** For gmail based authentication
+
+## Demo Video
+
+  
